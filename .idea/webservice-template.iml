@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/class/service" isTestSource="false" packagePrefix="KarinP\TemplateWS\Service\" />
+      <sourceFolder url="file://$MODULE_DIR$/class/exception" isTestSource="false" packagePrefix="KarinP\TemplateWS\Exception\" />
+      <sourceFolder url="file://$MODULE_DIR$/class" isTestSource="false" packagePrefix="KarinP\TemplateWS\" />
+      <sourceFolder url="file://$MODULE_DIR$/class/type" isTestSource="false" packagePrefix="KarinP\TemplateWS\Type\" />
+      <sourceFolder url="file://$MODULE_DIR$/class/model" isTestSource="false" packagePrefix="KarinP\TemplateWS\Model\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/class/dataSource" isTestSource="false" packagePrefix="KarinP\TemplateWS\DataSource\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/class/service/main" isTestSource="false" packagePrefix="KarinP\TemplateWS\Service\Main\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/webonyx/graphql-php" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

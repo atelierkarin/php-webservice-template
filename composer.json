@@ -1,0 +1,32 @@
+{
+    "name": "karinp/webservice-template",
+    "type": "project",
+    "authors": [
+        {
+            "name": ""
+        }
+    ],
+    "require": {
+        "webonyx/graphql-php": "^0.12.6",
+        "guzzlehttp/guzzle": "^6.3",
+        "monolog/monolog": "^1.23",
+        "ext-zip": "*",
+        "ext-json": "*",
+        "ext-gd": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "KarinP\\TemplateWS\\": "class/",
+            "KarinP\\TemplateWS\\DataSource\\": "class/dataSource/",
+            "KarinP\\TemplateWS\\Type\\": "class/type/",
+            "KarinP\\TemplateWS\\Model\\": "class/model/",
+            "KarinP\\TemplateWS\\Service\\": "class/service/",
+            "KarinP\\TemplateWS\\Service\\Main\\": "class/service/main/",
+            "KarinP\\TemplateWS\\Exception\\": "class/exception"
+        },
+        "classmap": [
+            "class/model"
+        ]
+    }
+}
